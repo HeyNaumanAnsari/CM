@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="request submit default">aad224f51ba621109e6db992cc4bcb15</macroponent>
+        <name>form_1/sections</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({
+    api
+}) {
+    if (api.data.glide_form_1.nowRecordFormBlob) {
+        var sections = api.data.glide_form_1.nowRecordFormBlob.sections;
+        if (sections.length > 0 && api.data.request_detail_internationalization_support_1 && api.data.request_detail_internationalization_support_1.output) {
+            sections[0].label = api.data.request_detail_internationalization_support_1['document_approval_form_title'];
+
+            return sections;
+        } else {
+            return '';
+        }
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-02 08:04:48</sys_created_on>
+        <sys_id>ab9768711be621109e6db992cc4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>form_1/sections</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_ux_client_script_ab9768711be621109e6db992cc4bcb71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-02 08:04:48</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

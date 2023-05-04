@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data">
+    <sys_ux_composite_data action="DELETE">
+        <active>true</active>
+        <base_filter_label>Default</base_filter_label>
+        <name>req-detail-get-all</name>
+        <query_parameters/>
+        <required_roles/>
+        <sort_order>descend</sort_order>
+        <sys_class_name>sys_ux_composite_data</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 09:55:11</sys_created_on>
+        <sys_id>c9d093481be221d09e6db992cc4bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>req-detail-get-all</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_ux_composite_data_c9d093481be221d09e6db992cc4bcb6a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 09:55:11</sys_updated_on>
+    </sys_ux_composite_data>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_ux_composite_data_c9d093481be221d09e6db992cc4bcb6a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data"><sys_ux_composite_data action="INSERT_OR_UPDATE"><active>true</active><base_filter_label>Default</base_filter_label><name>req-detail-get-all</name><query_parameters/><required_roles/><sort_order>descend</sort_order><sys_class_name>sys_ux_composite_data</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 09:55:11</sys_created_on><sys_id>c9d093481be221d09e6db992cc4bcb6a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>req-detail-get-all</sys_name><sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package><sys_policy/><sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope><sys_update_name>sys_ux_composite_data_c9d093481be221d09e6db992cc4bcb6a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 09:55:11</sys_updated_on></sys_ux_composite_data></record_update>]]></payload>
+        <payload_hash>398895110</payload_hash>
+        <record_name>req-detail-get-all</record_name>
+        <reverted_from/>
+        <source>09ad0cd71bda69909e6db992cc4bcb29</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 09:55:11</sys_created_on>
+        <sys_id>73e09f081be221d09e6db992cc4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187c22361340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 09:55:11</sys_updated_on>
+        <type>EVAM Definition</type>
+        <update_guid>7be09f0819e221d08266aac70166fa68</update_guid>
+        <update_guid_history>7be09f0819e221d08266aac70166fa68:398895110</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 10:08:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_composite_data">sys_ux_composite_data</sys_db_object>
+        <sys_id>0c62179cb5f449bc811f74cc166c6b41</sys_id>
+        <sys_metadata>c9d093481be221d09e6db992cc4bcb6a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>req-detail-get-all</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_scope_delete display_value="">14fa789f45f74e3cbc0a02ea958a01b1</sys_scope_delete>
+        <sys_update_name>sys_ux_composite_data_c9d093481be221d09e6db992cc4bcb6a</sys_update_name>
+        <sys_update_version display_value="sys_ux_composite_data_c9d093481be221d09e6db992cc4bcb6a">73e09f081be221d09e6db992cc4bcb69</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 10:08:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

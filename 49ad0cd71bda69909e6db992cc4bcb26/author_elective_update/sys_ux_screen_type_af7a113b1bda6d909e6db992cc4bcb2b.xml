@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>test view</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 06:39:14</sys_created_on>
+        <sys_id>af7a113b1bda6d909e6db992cc4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test view</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_ux_screen_type_af7a113b1bda6d909e6db992cc4bcb2b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 06:39:14</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="DELETE" query="documentkey=af7a113b1bda6d909e6db992cc4bcb2b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_ux_screen_type_af7a113b1bda6d909e6db992cc4bcb2b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>test view</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-26 06:39:14</sys_created_on><sys_id>af7a113b1bda6d909e6db992cc4bcb2b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test view</sys_name><sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package><sys_policy/><sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope><sys_update_name>sys_ux_screen_type_af7a113b1bda6d909e6db992cc4bcb2b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-26 06:39:14</sys_updated_on></sys_ux_screen_type><sys_translated_text action="delete_multiple" query="documentkey=af7a113b1bda6d909e6db992cc4bcb2b"/></record_update>]]></payload>
+        <payload_hash>-1801127595</payload_hash>
+        <record_name>test view</record_name>
+        <reverted_from/>
+        <source>c7edd8b21bc6e9109e6db992cc4bcbd1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 06:39:15</sys_created_on>
+        <sys_id>3b7a113b1bda6d909e6db992cc4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187bc49a2fe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 06:39:15</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>ff7a113b72da6d90ef24ad78be42232d</update_guid>
+        <update_guid_history>ff7a113b72da6d90ef24ad78be42232d:-1801127595</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 06:40:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>3bda97c53c4441249c4f01315e9eea24</sys_id>
+        <sys_metadata>af7a113b1bda6d909e6db992cc4bcb2b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test view</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_scope_delete display_value="">14fa789f45f74e3cbc0a02ea958a01b1</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_af7a113b1bda6d909e6db992cc4bcb2b</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_af7a113b1bda6d909e6db992cc4bcb2b">3b7a113b1bda6d909e6db992cc4bcb2e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 06:40:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

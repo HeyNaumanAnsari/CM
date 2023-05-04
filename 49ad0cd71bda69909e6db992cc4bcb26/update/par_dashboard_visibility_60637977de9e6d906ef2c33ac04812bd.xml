@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Main Case Workspace">28637977169e6d90737f6d4d943de2b8</dashboard>
+        <experience display_value="Main Case Workspace">64637977089e6d90a104386579fc24b9</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 08:28:00</sys_created_on>
+        <sys_id>60637977de9e6d906ef2c33ac04812bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>par_dashboard_visibility_60637977de9e6d906ef2c33ac04812bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 08:28:00</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>

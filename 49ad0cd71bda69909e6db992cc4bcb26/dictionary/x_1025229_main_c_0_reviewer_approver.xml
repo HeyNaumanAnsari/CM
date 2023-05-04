@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cc1937ed1b6221109e6db992cc4bcb98" label="Reviewer Approver" max_length="40" name="x_1025229_main_c_0_reviewer_approver" type="collection">
+        <element attributes="encode_utf8=false,edge_encryption_enabled=true" label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false,edge_encryption_enabled=true" label="Approver Group" max_length="32" name="approver_group" reference="sys_user_group" type="reference"/>
+        <element label="Approver Id" max_length="40" name="approver_id" type="string"/>
+        <element label="Comments" max_length="40" name="comments" type="journal_input"/>
+        <element attributes="encode_utf8=false,edge_encryption_enabled=true" label="Request" max_length="32" name="request" reference="x_1025229_main_c_0_request_detail" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Submitted" sequence="0" value="Submitted"/>
+                <element inactive_on_update="false" label="Returned" sequence="1" value="Returned"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="Approved"/>
+                <element inactive_on_update="false" label="No Longer Required" sequence="3" value="No Longer Required"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="Rejected"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="approver"/>
+        </index>
+        <index name="index2">
+            <element name="approver_group"/>
+        </index>
+        <index name="index3">
+            <element name="request"/>
+        </index>
+    </element>
+</database>

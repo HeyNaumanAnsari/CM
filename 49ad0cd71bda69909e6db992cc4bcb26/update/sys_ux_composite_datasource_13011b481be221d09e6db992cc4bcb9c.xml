@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_datasource">
+    <sys_ux_composite_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <encoded_query_script/>
+        <name>req-detail-get-all</name>
+        <sort_by>sys_updated_on</sort_by>
+        <sys_class_name>sys_ux_composite_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 09:59:04</sys_created_on>
+        <sys_id>13011b481be221d09e6db992cc4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>req-detail-get-all</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_ux_composite_datasource_13011b481be221d09e6db992cc4bcb9c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 09:59:04</sys_updated_on>
+        <table>x_1025229_main_c_0_request_detail</table>
+    </sys_ux_composite_datasource>
+</record_update>

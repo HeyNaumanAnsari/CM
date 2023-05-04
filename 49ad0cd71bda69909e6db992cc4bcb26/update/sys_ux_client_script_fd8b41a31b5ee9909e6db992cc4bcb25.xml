@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Request Submitted default">b358cd6f1b1ee9909e6db992cc4bcbd9</macroponent>
+        <name>View Request </name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+// function handler({api, event, helpers, imports}) {
+//    if(api.data.look_up_record_1.items.length> 0)
+//     helpers.navigate.to("request_view",{"sysId":api.data.look_up_record_1.items[1].value});
+// }
+
+
+function handler({api,event,helpers,imports}) {
+    let {
+        table,
+        sysId
+    } = api.context.props;
+
+    const route = "request-view";
+
+    {
+        api.emit('NAV_ITEM_SELECTED', {
+            route,
+            fields: {
+                table: "x_1025229_main_c_0_request_detail",
+                sysId: api.data.look_up_record_1.items[1].value
+            }
+        });
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 10:55:21</sys_created_on>
+        <sys_id>fd8b41a31b5ee9909e6db992cc4bcb25</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>View Request </sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_ux_client_script_fd8b41a31b5ee9909e6db992cc4bcb25</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 10:26:37</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

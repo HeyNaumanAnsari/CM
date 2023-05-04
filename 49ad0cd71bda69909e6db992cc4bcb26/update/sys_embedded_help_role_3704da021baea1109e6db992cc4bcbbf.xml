@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1025229_main_c_0.treasury" name="x_1025229_main_c_0.treasury">5a04da021baea1109e6db992cc4bcb42</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-03 10:37:04</sys_created_on>
+        <sys_id>3704da021baea1109e6db992cc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5a04da021baea1109e6db992cc4bcb42</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_embedded_help_role_3704da021baea1109e6db992cc4bcbbf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-03 10:37:04</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

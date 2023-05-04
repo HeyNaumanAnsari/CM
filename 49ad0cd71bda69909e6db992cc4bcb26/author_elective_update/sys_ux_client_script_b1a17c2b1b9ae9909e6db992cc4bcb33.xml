@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Request Submit default">552424231b5ae9909e6db992cc4bcb60</macroponent>
+        <name>form_1/sections</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({
+    api
+}) {
+    if (api.data.glide_form_1.nowRecordFormBlob) {
+        var sections = api.data.glide_form_1.nowRecordFormBlob.sections;
+        if (sections.length > 0 && api.data.request_detail_internationalization_support_1 && api.data.request_detail_internationalization_support_1.output) {
+            sections[0].label = api.data.request_detail_internationalization_support_1['document_approval_form_title'];
+            return sections;
+        } else {
+            return '';
+        }
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 09:02:19</sys_created_on>
+        <sys_id>b1a17c2b1b9ae9909e6db992cc4bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>form_1/sections</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_ux_client_script_b1a17c2b1b9ae9909e6db992cc4bcb33</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 09:02:19</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_ux_client_script_b1a17c2b1b9ae9909e6db992cc4bcb33</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Request Submit default"&gt;552424231b5ae9909e6db992cc4bcb60&lt;/macroponent&gt;&lt;name&gt;form_1/sections&lt;/name&gt;&lt;preset/&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({
+    api
+}) {
+    if (api.data.glide_form_1.nowRecordFormBlob) {
+        var sections = api.data.glide_form_1.nowRecordFormBlob.sections;
+        if (sections.length &gt; 0 &amp;&amp; api.data.request_detail_internationalization_support_1 &amp;&amp; api.data.request_detail_internationalization_support_1.output) {
+            sections[0].label = api.data.request_detail_internationalization_support_1['document_approval_form_title'];
+            return sections;
+        } else {
+            return '';
+        }
+    }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-25 09:02:19&lt;/sys_created_on&gt;&lt;sys_id&gt;b1a17c2b1b9ae9909e6db992cc4bcb33&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;form_1/sections&lt;/sys_name&gt;&lt;sys_package display_value="Main Case" source="x_1025229_main_c_0"&gt;49ad0cd71bda69909e6db992cc4bcb26&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Main Case"&gt;49ad0cd71bda69909e6db992cc4bcb26&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_b1a17c2b1b9ae9909e6db992cc4bcb33&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-25 09:02:19&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1004448263</payload_hash>
+        <record_name>form_1/sections</record_name>
+        <reverted_from/>
+        <source>09ad0cd71bda69909e6db992cc4bcb29</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 09:02:19</sys_created_on>
+        <sys_id>02a17c2b1b9ae9909e6db992cc4bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187b7a6451a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 09:02:19</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>8aa17c2b419ae990c3381fe828ec1036</update_guid>
+        <update_guid_history>8aa17c2b419ae990c3381fe828ec1036:-1004448263</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 10:13:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>38a1f078373642048f6c6cc539be8d90</sys_id>
+        <sys_metadata>b1a17c2b1b9ae9909e6db992cc4bcb33</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>form_1/sections</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_scope_delete display_value="">14fa789f45f74e3cbc0a02ea958a01b1</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_b1a17c2b1b9ae9909e6db992cc4bcb33</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_b1a17c2b1b9ae9909e6db992cc4bcb33">02a17c2b1b9ae9909e6db992cc4bcb37</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 10:13:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

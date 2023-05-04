@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Request Edit">87758a771b12ad909e6db992cc4bcb83</macroponent>
+        <name>display_value_block_1/items</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.imports
+ */
+function evaluateProperty({
+    api
+}) {
+ 
+ if(api.data.glide_form_1.nowRecordCommonHeader){
+ var displayBlock = api.data.glide_form_1.nowRecordCommonHeader.secondaryItems;
+    var obj = [{
+        "label": ''+api.data.request_detail_internationalization_support_1.output['request_view_number'] || "Number",
+        "value": {
+            "type": "string",
+            "value": displayBlock[1].displayValue
+        }
+    }, {
+        "label": ''+api.data.request_detail_internationalization_support_1.output['request_view_description'] || 'Description',
+        "value": {
+            "type": "string",
+            "value": displayBlock[0].displayValue
+        }
+    },{
+        "label": ''+api.data.document_approval_internationalization_support_1.output['document_view_status'] || "Status",
+        "value": {
+            "type": "highlighted-value",
+            "label": displayBlock[3].displayValue,
+            "status": displayBlock[3].status,
+            "showIcon": true
+        }
+    },  {
+        "label": ''+api.data.request_detail_internationalization_support_1.output['request_view_created'] ||  "Created",
+        "value": {
+            "type": "string",
+            "value": displayBlock[2].displayValue
+        }
+    }];
+    return obj;
+ } else {
+     return '';
+ }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 12:22:21</sys_created_on>
+        <sys_id>7d09e6b31b16ad909e6db992cc4bcbfb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>display_value_block_1/items</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_ux_client_script_7d09e6b31b16ad909e6db992cc4bcbfb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 04:37:55</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>
