@@ -6,50 +6,37 @@
         <description/>
         <field/>
         <global>true</global>
-        <isolate_script>true</isolate_script>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>ReadOnly For reviewer</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-	var userId = g_user.userID;
-	var reviewer = g_form.getValue('reviewer');
-	var requestOwner = g_form.getValue('request_owner');
-	var getStatus = g_form.getValue('status');
-	var isApproveRequired = g_form.getValue('is_approval_required');
-	var isRecurrence = g_form.getValue('is_recurring',true);
-	if(!(g_form.isNewRecord()))
-		{
-			if(userId==reviewer){
-		g_form.setReadOnly('due_date',true);
-		g_form.setReadOnly('is_approval_required',true);
-		g_form.setReadOnly('description',true);
-		if(isApproveRequired){
-			g_form.setReadOnly('reviewer',true);
-		}
-				if(isRecurrence){
-			g_form.setReadOnly('recurrence_pattern',true);
-			g_form.setReadOnly('days',true);
-			g_form.setReadOnly('recurrence_date',true);
-		}
-	}
-	else if(userId == requestOwner && (getStatus!='Returned' || !(g_form.isNewRecord()))){
-		{
-		g_form.setReadOnly('due_date',true);
-		g_form.setReadOnly('is_approval_required',true);
-		g_form.setReadOnly('description',true);
-		if(isApproveRequired){
-			g_form.setReadOnly('reviewer',true);
-		}
-		if(isRecurrence){
-			g_form.setReadOnly('recurrence_pattern',true);
-			g_form.setReadOnly('days',true);
-			g_form.setReadOnly('recurrence_date',true);
-		}
-	}
-	}
-		}
-	
+    //Type appropriate comment here, and begin script below
+    var userId = g_user.userID;
+    var reviewer = g_form.getValue('reviewer');
+    var requestOwner = g_form.getValue('request_owner');
+    var getStatus = g_form.getValue('status');
+    var isApproveRequired = g_form.getValue('is_approval_required');
+    var isRecurrence = g_form.getValue('is_recurring');
+    if (!(g_form.isNewRecord())) {
+        g_form.setReadOnly('due_date', true);
+        g_form.setReadOnly('is_approval_required', true);
+        g_form.setReadOnly('is_recurring', true);
+        g_form.setReadOnly('description', true);
+        if ((userId == reviewer) || (userId == requestOwner && (getStatus != 'Returned' || !(g_form.isNewRecord()))) || (g_user.hasRole('x_1025229_main_c_0.func-approver') && (userId != requestOwner))) {
+
+            if (isApproveRequired) {
+                g_form.setReadOnly('reviewer', true);
+            }
+            if (isRecurrence) {
+                g_form.setReadOnly('recurrence_pattern', true);
+                g_form.setReadOnly('days', true);
+                g_form.setReadOnly('recurrence_date', true);
+            }
+        }
+
+    }
+
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -57,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>28158a461b2ea1109e6db992cc4bcb79</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>ReadOnly For reviewer</sys_name>
         <sys_overrides/>
         <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
@@ -65,7 +52,7 @@
         <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
         <sys_update_name>sys_script_client_28158a461b2ea1109e6db992cc4bcb79</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-03 09:46:09</sys_updated_on>
+        <sys_updated_on>2023-05-09 12:10:48</sys_updated_on>
         <table>x_1025229_main_c_0_request_detail</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

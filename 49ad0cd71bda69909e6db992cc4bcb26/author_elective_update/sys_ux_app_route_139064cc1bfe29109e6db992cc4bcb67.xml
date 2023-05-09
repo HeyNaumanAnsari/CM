@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Main Case Workspace Config">e0637977b39e6d9023c0152e6bb812bf</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>main dashboard</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>main-dashboard</route_type>
+        <screen_type display_value="main dashboard">87902c4c1bfe29109e6db992cc4bcb31</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 07:20:32</sys_created_on>
+        <sys_id>139064cc1bfe29109e6db992cc4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>main dashboard</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_ux_app_route_139064cc1bfe29109e6db992cc4bcb67</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 07:20:32</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=139064cc1bfe29109e6db992cc4bcb67"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_ux_app_route_139064cc1bfe29109e6db992cc4bcb67</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Main Case Workspace Config">e0637977b39e6d9023c0152e6bb812bf</app_config><description/><extension_point/><fields/><icon/><name>main dashboard</name><optional_parameters/><order>0</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>main-dashboard</route_type><screen_type display_value="main dashboard">87902c4c1bfe29109e6db992cc4bcb31</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-09 07:20:32</sys_created_on><sys_id>139064cc1bfe29109e6db992cc4bcb67</sys_id><sys_mod_count>0</sys_mod_count><sys_name>main dashboard</sys_name><sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package><sys_policy/><sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope><sys_update_name>sys_ux_app_route_139064cc1bfe29109e6db992cc4bcb67</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-09 07:20:32</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=139064cc1bfe29109e6db992cc4bcb67"/></record_update>]]></payload>
+        <payload_hash>-1153786799</payload_hash>
+        <record_name>main dashboard</record_name>
+        <reverted_from/>
+        <source>65e5bed61b2e25109e6db992cc4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 07:20:32</sys_created_on>
+        <sys_id>1f9064cc1bfe29109e6db992cc4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187ff621d2a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 07:20:32</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>179064cc83fe2910664598f666331b68</update_guid>
+        <update_guid_history>179064cc83fe2910664598f666331b68:-1153786799</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 07:23:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>64ce57729c064710a7d1d5417aee3100</sys_id>
+        <sys_metadata>139064cc1bfe29109e6db992cc4bcb67</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>main dashboard</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_scope_delete display_value="">14fa789f45f74e3cbc0a02ea958a01b1</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_139064cc1bfe29109e6db992cc4bcb67</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_139064cc1bfe29109e6db992cc4bcb67">1f9064cc1bfe29109e6db992cc4bcb68</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 07:23:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

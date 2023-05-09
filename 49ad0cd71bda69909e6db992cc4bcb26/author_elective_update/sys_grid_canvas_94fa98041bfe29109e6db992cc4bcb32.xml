@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="DELETE">
+        <legacy_page display_value="PA Main case Dashboard - New Tab 2">58fa98041bfe29109e6db992cc4bcb31</legacy_page>
+        <name>PA Main case Dashboard - New Tab 2</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 06:55:46</sys_created_on>
+        <sys_id>94fa98041bfe29109e6db992cc4bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Main case Dashboard - New Tab 2</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_grid_canvas_94fa98041bfe29109e6db992cc4bcb32</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 06:55:46</sys_updated_on>
+    </sys_grid_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_grid_canvas_94fa98041bfe29109e6db992cc4bcb32</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas"><sys_grid_canvas action="INSERT_OR_UPDATE"><legacy_page display_value="PA Main case Dashboard - New Tab 2">58fa98041bfe29109e6db992cc4bcb31</legacy_page><name>PA Main case Dashboard - New Tab 2</name><sys_class_name>sys_grid_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-09 06:55:46</sys_created_on><sys_id>94fa98041bfe29109e6db992cc4bcb32</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PA Main case Dashboard - New Tab 2</sys_name><sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package><sys_policy/><sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope><sys_update_name>sys_grid_canvas_94fa98041bfe29109e6db992cc4bcb32</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-09 06:55:46</sys_updated_on></sys_grid_canvas></record_update>]]></payload>
+        <payload_hash>1649774078</payload_hash>
+        <record_name>PA Main case Dashboard - New Tab 2</record_name>
+        <reverted_from/>
+        <source>65e5bed61b2e25109e6db992cc4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 06:55:46</sys_created_on>
+        <sys_id>d0fa98041bfe29109e6db992cc4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187ff4b6e300000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 06:55:46</sys_updated_on>
+        <type>Grid Canvas</type>
+        <update_guid>d8fa98043cfe2910205244e9cd395833</update_guid>
+        <update_guid_history>d8fa98043cfe2910205244e9cd395833:1649774078</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 06:55:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas">sys_grid_canvas</sys_db_object>
+        <sys_id>0d13597f1b9e491c8f806533106f7331</sys_id>
+        <sys_metadata>94fa98041bfe29109e6db992cc4bcb32</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Main case Dashboard - New Tab 2</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_scope_delete display_value="">14fa789f45f74e3cbc0a02ea958a01b1</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_94fa98041bfe29109e6db992cc4bcb32</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_94fa98041bfe29109e6db992cc4bcb32">d0fa98041bfe29109e6db992cc4bcb34</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 06:55:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

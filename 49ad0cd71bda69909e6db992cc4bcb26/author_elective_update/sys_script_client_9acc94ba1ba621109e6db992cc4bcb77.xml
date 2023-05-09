@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ReadOnly for Functional</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	var userId = g_user.userID;
+	var reviewer = g_form.getValue('reviewer');
+	var requestOwner = g_form.getValue('request_owner');
+	var getStatus = g_form.getValue('status');
+	var isApproveRequired = g_form.getValue('is_approval_required');
+	var isRecurrence = g_form.getValue('is_recurring',true);
+	if(!(g_form.isNewRecord()))
+		{
+			if(userId!=reviewer || getStatus!='Returned'){
+		g_form.setReadOnly('due_date',true);
+		g_form.setReadOnly('is_approval_required',true);
+		g_form.setReadOnly('description',true);
+		if(isApproveRequired){
+			g_form.setReadOnly('reviewer',true);
+		}
+				if(isRecurrence){
+			g_form.setReadOnly('recurrence_pattern',true);
+			g_form.setReadOnly('days',true);
+			g_form.setReadOnly('recurrence_date',true);
+		}
+	}
+// 	else if((getStatus!='Returned' || !(g_form.isNewRecord()))){
+// 		{
+// 		g_form.setReadOnly('due_date',true);
+// 		g_form.setReadOnly('is_approval_required',true);
+// 		g_form.setReadOnly('description',true);
+// 		if(isApproveRequired){
+// 			g_form.setReadOnly('reviewer',true);
+// 		}
+// 		if(isRecurrence){
+// 			g_form.setReadOnly('recurrence_pattern',true);
+// 			g_form.setReadOnly('days',true);
+// 			g_form.setReadOnly('recurrence_date',true);
+// 		}
+// 	}
+// 	}
+		}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-05 10:34:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9acc94ba1ba621109e6db992cc4bcb77</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>ReadOnly for Functional</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_script_client_9acc94ba1ba621109e6db992cc4bcb77</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-08 04:32:44</sys_updated_on>
+        <table>x_1025229_main_c_0_request_detail</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_script_client_9acc94ba1ba621109e6db992cc4bcb77</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;ReadOnly for Functional&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	var userId = g_user.userID;
+	var reviewer = g_form.getValue('reviewer');
+	var requestOwner = g_form.getValue('request_owner');
+	var getStatus = g_form.getValue('status');
+	var isApproveRequired = g_form.getValue('is_approval_required');
+	var isRecurrence = g_form.getValue('is_recurring',true);
+	if(!(g_form.isNewRecord()))
+		{
+			if(userId!=reviewer || getStatus!='Returned'){
+		g_form.setReadOnly('due_date',true);
+		g_form.setReadOnly('is_approval_required',true);
+		g_form.setReadOnly('description',true);
+		if(isApproveRequired){
+			g_form.setReadOnly('reviewer',true);
+		}
+				if(isRecurrence){
+			g_form.setReadOnly('recurrence_pattern',true);
+			g_form.setReadOnly('days',true);
+			g_form.setReadOnly('recurrence_date',true);
+		}
+	}
+// 	else if((getStatus!='Returned' || !(g_form.isNewRecord()))){
+// 		{
+// 		g_form.setReadOnly('due_date',true);
+// 		g_form.setReadOnly('is_approval_required',true);
+// 		g_form.setReadOnly('description',true);
+// 		if(isApproveRequired){
+// 			g_form.setReadOnly('reviewer',true);
+// 		}
+// 		if(isRecurrence){
+// 			g_form.setReadOnly('recurrence_pattern',true);
+// 			g_form.setReadOnly('days',true);
+// 			g_form.setReadOnly('recurrence_date',true);
+// 		}
+// 	}
+// 	}
+		}
+	
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-05 10:34:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9acc94ba1ba621109e6db992cc4bcb77&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;ReadOnly for Functional&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Main Case" source="x_1025229_main_c_0"&gt;49ad0cd71bda69909e6db992cc4bcb26&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Main Case"&gt;49ad0cd71bda69909e6db992cc4bcb26&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_9acc94ba1ba621109e6db992cc4bcb77&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-05-08 04:32:44&lt;/sys_updated_on&gt;&lt;table&gt;x_1025229_main_c_0_request_detail&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1045230052</payload_hash>
+        <record_name>ReadOnly for Functional</record_name>
+        <reverted_from/>
+        <source>65e5bed61b2e25109e6db992cc4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-08 04:32:44</sys_created_on>
+        <sys_id>e39076231b2aa5109e6db992cc4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187f9a221770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-08 04:32:44</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>6b907623be2aa5100492f1202fc259f7</update_guid>
+        <update_guid_history>6b907623be2aa5100492f1202fc259f7:1045230052,33807eaf22e6a510a4ce20f869dd8c69:1560823588,da8de2afcce6a510c6552f4841d73a53:-713061249,fe47a2e30fe6a51031568a3c038b310f:-1138922323,dcd7343654aa21109d4fa94677b8cbe7:-730681548,8d96f4b6e4aa21106360cd778b4f0256:-1362806536,93a8e07ee72a2110fc135525218a8ec4:172931721,6b58a0bab62a2110bf35aed4b34b1e78:1079433652,2a28acfa2e2a21103488f90b3381e056:-539343472,bb8760babc2a2110f32f0ce7cefec7ac:-1205060140,71a660ba9c2a21101a48e8d9a2e6cca6:-1694921499</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 10:22:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0239c01dfe604910807958a5666dfc40</sys_id>
+        <sys_metadata>9acc94ba1ba621109e6db992cc4bcb77</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ReadOnly for Functional</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_parent display_value="Request Detail">ad44d4d31b1e69909e6db992cc4bcb3d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_scope_delete display_value="">14fa789f45f74e3cbc0a02ea958a01b1</sys_scope_delete>
+        <sys_update_name>sys_script_client_9acc94ba1ba621109e6db992cc4bcb77</sys_update_name>
+        <sys_update_version display_value="sys_script_client_9acc94ba1ba621109e6db992cc4bcb77">e39076231b2aa5109e6db992cc4bcbf8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 10:22:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_user_metadata">
+    <par_dashboard_user_metadata action="DELETE">
+        <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
+        <created_on>2023-05-09 09:29:27</created_on>
+        <dashboard display_value="Untitled">231eb8c01bf269109e6db992cc4bcbbf</dashboard>
+        <last_updated_on>2023-05-09 09:29:27</last_updated_on>
+        <requested_by_user/>
+        <sys_class_name>par_dashboard_user_metadata</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 09:29:27</sys_created_on>
+        <sys_id>271eb8c01bf269109e6db992cc4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>par_dashboard_user_metadata_271eb8c01bf269109e6db992cc4bcbc1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 09:29:27</sys_updated_on>
+        <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
+    </par_dashboard_user_metadata>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>par_dashboard_user_metadata_271eb8c01bf269109e6db992cc4bcbc1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_user_metadata"><par_dashboard_user_metadata action="INSERT_OR_UPDATE"><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><created_on>2023-05-09 09:29:27</created_on><dashboard display_value="Untitled">231eb8c01bf269109e6db992cc4bcbbf</dashboard><last_updated_on>2023-05-09 09:29:27</last_updated_on><requested_by_user/><sys_class_name>par_dashboard_user_metadata</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-09 09:29:27</sys_created_on><sys_id>271eb8c01bf269109e6db992cc4bcbc1</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package><sys_policy/><sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope><sys_update_name>par_dashboard_user_metadata_271eb8c01bf269109e6db992cc4bcbc1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-09 09:29:27</sys_updated_on><updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user></par_dashboard_user_metadata></record_update>]]></payload>
+        <payload_hash>-440398130</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>65e5bed61b2e25109e6db992cc4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 09:29:27</sys_created_on>
+        <sys_id>e31eb8c01bf269109e6db992cc4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187ffd822820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 09:29:27</sys_updated_on>
+        <type>PAR Dashboard User Metadata</type>
+        <update_guid>eb1eb8c0c0f26910554c8321360015c2</update_guid>
+        <update_guid_history>eb1eb8c0c0f26910554c8321360015c2:-440398130</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">254ef4041bf269109e6db992cc4bcbef</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 09:30:08</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_user_metadata">par_dashboard_user_metadata</sys_db_object>
+        <sys_id>12c21b6b394c4f0485c665e6432e1990</sys_id>
+        <sys_metadata>271eb8c01bf269109e6db992cc4bcbc1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_scope_delete display_value="">14fa789f45f74e3cbc0a02ea958a01b1</sys_scope_delete>
+        <sys_update_name>par_dashboard_user_metadata_271eb8c01bf269109e6db992cc4bcbc1</sys_update_name>
+        <sys_update_version display_value="par_dashboard_user_metadata_271eb8c01bf269109e6db992cc4bcbc1">e31eb8c01bf269109e6db992cc4bcbc3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 09:30:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

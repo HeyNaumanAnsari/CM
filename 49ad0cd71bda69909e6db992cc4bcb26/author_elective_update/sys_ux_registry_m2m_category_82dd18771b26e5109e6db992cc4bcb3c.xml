@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
+    <sys_ux_registry_m2m_category action="DELETE">
+        <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
+        <page_registry display_value="Main Case Workspace">64637977089e6d90a104386579fc24b9</page_registry>
+        <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-08 12:30:08</sys_created_on>
+        <sys_id>82dd18771b26e5109e6db992cc4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_ux_registry_m2m_category_82dd18771b26e5109e6db992cc4bcb3c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-08 12:30:08</sys_updated_on>
+    </sys_ux_registry_m2m_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</application>
+        <file_path/>
+        <instance_id>f4b0afb0dbf92950dc3fc597059619ab</instance_id>
+        <instance_name>dev167757</instance_name>
+        <name>sys_ux_registry_m2m_category_82dd18771b26e5109e6db992cc4bcb3c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category"><sys_ux_registry_m2m_category action="INSERT_OR_UPDATE"><experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category><page_registry display_value="Main Case Workspace">64637977089e6d90a104386579fc24b9</page_registry><sys_class_name>sys_ux_registry_m2m_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-08 12:30:08</sys_created_on><sys_id>82dd18771b26e5109e6db992cc4bcb3c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package><sys_policy/><sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope><sys_update_name>sys_ux_registry_m2m_category_82dd18771b26e5109e6db992cc4bcb3c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-08 12:30:08</sys_updated_on></sys_ux_registry_m2m_category></record_update>]]></payload>
+        <payload_hash>274314158</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>65e5bed61b2e25109e6db992cc4bcb82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-08 12:30:08</sys_created_on>
+        <sys_id>24ed58771b26e5109e6db992cc4bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187fb5731130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-08 12:30:08</sys_updated_on>
+        <type>UX Application Category M2M</type>
+        <update_guid>2ced5877a726e5109e045d4ccad756ae</update_guid>
+        <update_guid_history>2ced5877a726e5109e045d4ccad756ae:274314158</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-08 12:30:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_registry_m2m_category">sys_ux_registry_m2m_category</sys_db_object>
+        <sys_id>47161143bbfd49c8925005ef7a832e40</sys_id>
+        <sys_metadata>82dd18771b26e5109e6db992cc4bcb3c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_scope_delete display_value="">14fa789f45f74e3cbc0a02ea958a01b1</sys_scope_delete>
+        <sys_update_name>sys_ux_registry_m2m_category_82dd18771b26e5109e6db992cc4bcb3c</sys_update_name>
+        <sys_update_version display_value="sys_ux_registry_m2m_category_82dd18771b26e5109e6db992cc4bcb3c">24ed58771b26e5109e6db992cc4bcbaf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-08 12:30:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

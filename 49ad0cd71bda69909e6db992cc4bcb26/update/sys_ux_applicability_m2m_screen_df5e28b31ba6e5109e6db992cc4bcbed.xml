@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Request Admin">8bdd6cff1b66e5109e6db992cc4bcb92</applicability>
+        <order>100</order>
+        <screen display_value="Functional Home">ee67a8b71b66e5109e6db992cc4bcb0f</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-08 13:42:08</sys_created_on>
+        <sys_id>df5e28b31ba6e5109e6db992cc4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_df5e28b31ba6e5109e6db992cc4bcbed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-08 13:42:08</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>
