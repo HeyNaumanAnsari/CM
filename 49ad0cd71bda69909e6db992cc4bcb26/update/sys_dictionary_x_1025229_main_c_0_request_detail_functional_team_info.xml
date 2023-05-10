@@ -5,7 +5,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Functional Team Info</column_label>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
         <sys_update_name>sys_dictionary_x_1025229_main_c_0_request_detail_functional_team_info</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-25 07:21:19</sys_updated_on>
+        <sys_updated_on>2023-05-09 16:39:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

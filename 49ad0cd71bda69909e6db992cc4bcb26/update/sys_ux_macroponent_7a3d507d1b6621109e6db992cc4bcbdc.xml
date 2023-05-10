@@ -53,11 +53,11 @@
         },
         "hideLastRefreshedText" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "hideColumnReorder" : {
           "type" : "JSON_LITERAL",
-          "value" : true
+          "value" : false
         },
         "hideMenuButton" : {
           "type" : "JSON_LITERAL",
@@ -121,7 +121,7 @@
         },
         "hideRefreshButton" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "hideQuickEdit" : {
           "type" : "JSON_LITERAL",
@@ -145,7 +145,7 @@
         },
         "hideDotwalk" : {
           "type" : "JSON_LITERAL",
-          "value" : true
+          "value" : false
         },
         "hideDeclarativeActions" : {
           "type" : "JSON_LITERAL",
@@ -177,7 +177,7 @@
         },
         "columns" : {
           "type" : "JSON_LITERAL",
-          "value" : ""
+          "value" : "number,status,sys_created_on,description"
         },
         "hideLinks" : {
           "type" : "JSON_LITERAL",
@@ -193,7 +193,7 @@
         },
         "hideColumnFiltering" : {
           "type" : "JSON_LITERAL",
-          "value" : true
+          "value" : false
         },
         "hidePanelAdvanced" : {
           "type" : "JSON_LITERAL",
@@ -213,7 +213,7 @@
         },
         "hideInlineEditing" : {
           "type" : "JSON_LITERAL",
-          "value" : true
+          "value" : false
         },
         "hidePagination" : {
           "type" : "JSON_LITERAL",
@@ -299,7 +299,83 @@
           "value" : false
         }
       },
-      "eventMappings" : [ ],
+      "eventMappings" : [ {
+        "eventMappingId" : "clhhiibbneeaaaaggpdddffhhrvzgghggqsn",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_1025229_main_c_0.NAV_ITEM_SELECTED_RELAY_7a3d507d1b6621109e6db992cc4bcbdc",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "route" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "record"
+                },
+                "fields" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "table" : {
+                      "type" : "EVENT_PAYLOAD_BINDING",
+                      "binding" : {
+                        "address" : [ "table" ]
+                      }
+                    },
+                    "sysId" : {
+                      "type" : "EVENT_PAYLOAD_BINDING",
+                      "binding" : {
+                        "address" : [ "sys_id" ]
+                      }
+                    }
+                  }
+                },
+                "params" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "redirect" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "passiveNavigation" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "title" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "multiInstField" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "targetRoute" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "external" : null
+              }
+            },
+            "sysId" : "a0f705541bfea9109e6db992cc4bcb69"
+          },
+          "operation" : null,
+          "targetId" : "clhhiibbneebbaaggpeddffhhrcceeyjjvcfp",
+          "type" : "EVENT"
+        } ]
+      } ],
       "slot" : null,
       "definition" : {
         "id" : "2b1c080881e05dc63b917044290b233f",
@@ -1559,7 +1635,7 @@
         <da_relay_models/>
         <data>[ ]</data>
         <description/>
-        <dispatched_events>a46379772c9e6d904363bc1f4a40cdbf</dispatched_events>
+        <dispatched_events>a0f705541bfea9109e6db992cc4bcb69,a46379772c9e6d904363bc1f4a40cdbf</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
@@ -1635,14 +1711,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-02 07:19:25</sys_created_on>
         <sys_id>7a3d507d1b6621109e6db992cc4bcbdc</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Initiator Home</sys_name>
         <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
         <sys_policy/>
         <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
         <sys_update_name>sys_ux_macroponent_7a3d507d1b6621109e6db992cc4bcbdc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-09 09:12:39</sys_updated_on>
+        <sys_updated_on>2023-05-10 04:50:54</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=7a3d507d1b6621109e6db992cc4bcbdc"/>
 </record_update>

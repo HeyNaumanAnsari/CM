@@ -38,6 +38,8 @@
                 <element inactive_on_update="false" label="Approved By Reviewer" sequence="2" value="Approved By Reviewer"/>
                 <element inactive_on_update="false" label="Approved by Functional Team" sequence="3" value="Approved by Functional Team"/>
                 <element inactive_on_update="false" label="Rejected" sequence="4" value="Rejected"/>
+                <element inactive_on_update="false" label="Complete By Owner" sequence="5" value="Complete By Ownen"/>
+                <element inactive_on_update="false" label="Completed" sequence="6" value="Completed"/>
             </choice>
         </element>
         <index name="index">

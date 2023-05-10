@@ -53,7 +53,7 @@
         },
         "hideLastRefreshedText" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "hideColumnReorder" : {
           "type" : "JSON_LITERAL",
@@ -121,7 +121,7 @@
         },
         "hideRefreshButton" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "hideQuickEdit" : {
           "type" : "JSON_LITERAL",
@@ -177,7 +177,7 @@
         },
         "columns" : {
           "type" : "JSON_LITERAL",
-          "value" : ""
+          "value" : "number,status,sys_created_on,description"
         },
         "hideLinks" : {
           "type" : "JSON_LITERAL",
@@ -299,7 +299,83 @@
           "value" : false
         }
       },
-      "eventMappings" : [ ],
+      "eventMappings" : [ {
+        "eventMappingId" : "clhhiiggrvmaahhufddffhhrffvpcckovf",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_1025229_main_c_0.NAV_ITEM_SELECTED_RELAY_1a67a8b71b66e5109e6db992cc4bcb09",
+            "payload" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "route" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "record"
+                },
+                "fields" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "table" : {
+                      "type" : "EVENT_PAYLOAD_BINDING",
+                      "binding" : {
+                        "address" : [ "table" ]
+                      }
+                    },
+                    "sysId" : {
+                      "type" : "EVENT_PAYLOAD_BINDING",
+                      "binding" : {
+                        "address" : [ "sys_id" ]
+                      }
+                    }
+                  }
+                },
+                "params" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "redirect" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "passiveNavigation" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "title" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "multiInstField" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "targetRoute" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "external" : null
+              }
+            },
+            "sysId" : "b9b809981bfea9109e6db992cc4bcbb1"
+          },
+          "operation" : null,
+          "targetId" : "clhhiiggrvmaahhugddffhhrfeeeyzggbbff",
+          "type" : "EVENT"
+        } ]
+      } ],
       "slot" : null,
       "definition" : {
         "id" : "2b1c080881e05dc63b917044290b233f",
@@ -1622,7 +1698,7 @@
         <da_relay_models/>
         <data>[ ]</data>
         <description/>
-        <dispatched_events>a46379772c9e6d904363bc1f4a40cdbf</dispatched_events>
+        <dispatched_events>b9b809981bfea9109e6db992cc4bcbb1,a46379772c9e6d904363bc1f4a40cdbf</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
@@ -1698,14 +1774,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-08 13:11:45</sys_created_on>
         <sys_id>1a67a8b71b66e5109e6db992cc4bcb09</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Functional Home</sys_name>
         <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
         <sys_policy/>
         <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
         <sys_update_name>sys_ux_macroponent_1a67a8b71b66e5109e6db992cc4bcb09</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 13:30:33</sys_updated_on>
+        <sys_updated_on>2023-05-10 04:54:16</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=1a67a8b71b66e5109e6db992cc4bcb09"/>
 </record_update>
