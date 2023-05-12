@@ -47,8 +47,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>status</field>
         <field_list>number,opened_at,short_description,caller_id,priority,state,category,assignment_group,assigned_to,sys_updated_on,sys_updated_by</field_list>
-        <filter table="x_1025229_main_c_0_request_detail">request_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORDERBYnumber<item endquery="false" field="request_owner" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
-            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
+        <filter table="x_1025229_main_c_0_request_detail">request_ownerDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="request_owner" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -108,14 +107,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-09 06:32:52</sys_created_on>
         <sys_id>49b55c881bbe29109e6db992cc4bcb17</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Report based  status created by users</sys_name>
         <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
         <sys_policy/>
         <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
         <sys_update_name>sys_report_49b55c881bbe29109e6db992cc4bcb17</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-10 06:28:07</sys_updated_on>
+        <sys_updated_on>2023-05-11 05:43:01</sys_updated_on>
         <table>x_1025229_main_c_0_request_detail</table>
         <title>Report based  status created by users</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

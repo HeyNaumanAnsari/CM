@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA Main case Dashboard - New Tab">b3431c441bbe29109e6db992cc4bcbf8</grid_canvas>
-        <height>14</height>
+        <height>6</height>
         <portal_widget display_value="Created 2023-05-08 23:55:32">8dea98041bfe29109e6db992cc4bcb6d</portal_widget>
         <posx>0</posx>
         <posy>0</posy>
@@ -9,14 +9,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-09 06:55:32</sys_created_on>
         <sys_id>c5ea98041bfe29109e6db992cc4bcb76</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>b3431c441bbe29109e6db992cc4bcbf8</sys_name>
         <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
         <sys_policy/>
         <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
         <sys_update_name>sys_grid_canvas_pane_c5ea98041bfe29109e6db992cc4bcb76</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-10 05:35:05</sys_updated_on>
+        <sys_updated_on>2023-05-11 04:39:24</sys_updated_on>
         <width>4</width>
     </sys_grid_canvas_pane>
 </record_update>
