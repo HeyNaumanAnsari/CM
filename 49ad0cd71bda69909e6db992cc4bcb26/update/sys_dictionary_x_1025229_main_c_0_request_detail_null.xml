@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <attributes/>
-        <audit>false</audit>
+        <audit>true</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
         <sys_update_name>sys_dictionary_x_1025229_main_c_0_request_detail_null</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-03 11:13:22</sys_updated_on>
+        <sys_updated_on>2023-05-18 11:12:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>true</text_index>
         <unique>false</unique>

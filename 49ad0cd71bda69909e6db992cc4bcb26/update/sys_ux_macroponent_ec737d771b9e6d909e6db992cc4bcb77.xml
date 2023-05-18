@@ -287,13 +287,13 @@
           "type" : "JSON_LITERAL",
           "value" : "md"
         },
-        "position" : {
-          "type" : "JSON_LITERAL",
-          "value" : "top"
-        },
         "showInlinePadding" : {
           "type" : "JSON_LITERAL",
           "value" : true
+        },
+        "position" : {
+          "type" : "JSON_LITERAL",
+          "value" : "top"
         },
         "items" : {
           "type" : "LIST_CONTAINER",
@@ -655,21 +655,21 @@
                       "elementId" : "activity_stream_compose",
                       "elementLabel" : "Activity Stream Compose",
                       "propertyValues" : {
-                        "journalFieldSettings" : {
-                          "type" : "JSON_LITERAL",
-                          "value" : { }
-                        },
-                        "canPostMandatoryFields" : {
-                          "type" : "JSON_LITERAL",
-                          "value" : false
-                        },
-                        "allowJournalFieldSettingsOverrides" : {
-                          "type" : "JSON_LITERAL",
-                          "value" : true
+                        "sysId" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "sysId" ]
+                          }
                         },
                         "useTabs" : {
                           "type" : "JSON_LITERAL",
                           "value" : true
+                        },
+                        "isNewRecord" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "isNew" ]
+                          }
                         },
                         "title" : {
                           "type" : "TRANSLATION_LITERAL",
@@ -690,6 +690,34 @@
                         "isSideBySideViewEnabled" : {
                           "type" : "JSON_LITERAL",
                           "value" : false
+                        },
+                        "journalFieldSettings" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : { }
+                        },
+                        "canPostMandatoryFields" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : false
+                        },
+                        "allowJournalFieldSettingsOverrides" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : true
+                        },
+                        "fields" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "form", "fields" ]
+                          }
+                        },
+                        "bare" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : false
+                        },
+                        "table" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "table" ]
+                          }
                         }
                       },
                       "eventMappings" : [ ],
@@ -721,9 +749,21 @@
                           "type" : "JSON_LITERAL",
                           "value" : false
                         },
-                        "showConversationFilter" : {
+                        "sysId" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "sysId" ]
+                          }
+                        },
+                        "suppressPreviewRecordForEmailActions" : {
                           "type" : "JSON_LITERAL",
                           "value" : true
+                        },
+                        "isNewRecord" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "isNew" ]
+                          }
                         },
                         "title" : {
                           "type" : "TRANSLATION_LITERAL",
@@ -733,9 +773,65 @@
                             "comment" : ""
                           }
                         },
+                        "view" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "form", "view" ]
+                          }
+                        },
+                        "userReferences" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "activityStream", "users" ]
+                          }
+                        },
+                        "showConversationFilter" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : true
+                        },
+                        "supplemental" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "activityStream", "additionalEventInfo" ]
+                          }
+                        },
+                        "ambChannels" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "activityStream", "liveUpdateChannels" ]
+                          }
+                        },
+                        "bare" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : false
+                        },
+                        "table" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "table" ]
+                          }
+                        },
                         "showTileIcons" : {
                           "type" : "JSON_LITERAL",
                           "value" : true
+                        },
+                        "events" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "activityStream", "events" ]
+                          }
+                        },
+                        "filterOptions" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "activityStream", "filterOptions" ]
+                          }
+                        },
+                        "timestamp" : {
+                          "type" : "DATA_OUTPUT_BINDING",
+                          "binding" : {
+                            "address" : [ "record", "activityStream", "timestamp" ]
+                          }
                         }
                       },
                       "eventMappings" : [ ],
@@ -877,13 +973,13 @@
                     "category" : "value"
                   }
                 },
-                "hidePreviousPage" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
                 "maxColumns" : {
                   "type" : "JSON_LITERAL",
                   "value" : 0
+                },
+                "hidePreviousPage" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
                 },
                 "view" : {
                   "type" : "CONTEXT_BINDING",
@@ -1013,6 +1109,10 @@
                   "value" : false
                 },
                 "hideDotwalk" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "hideDeclarativeActions" : {
                   "type" : "JSON_LITERAL",
                   "value" : false
                 },
@@ -1314,7 +1414,7 @@
             "apiVersion" : "2.0.0",
             "controllerElementId" : null,
             "inlineScript" : null,
-            "scriptSysId" : "6c637977349e6d9002a5e999ff6dd9be",
+            "scriptSysId" : "5fc2999247ba21106e504aff336d43bc",
             "target" : null
           }
         },
@@ -1339,13 +1439,13 @@
           "type" : "JSON_LITERAL",
           "value" : "md"
         },
-        "position" : {
-          "type" : "JSON_LITERAL",
-          "value" : "right"
-        },
         "showInlinePadding" : {
           "type" : "JSON_LITERAL",
           "value" : true
+        },
+        "position" : {
+          "type" : "JSON_LITERAL",
+          "value" : "right"
         },
         "items" : {
           "type" : "LIST_CONTAINER",
@@ -2917,24 +3017,22 @@
         "type" : "MACROPONENT"
       },
       "overrides" : null,
-      "isHidden":{
-        "type":"BINARY",
-        "operation":{
-            "left":{
-              "type":"CONTEXT_BINDING",
-              "binding":{
-                  "address":[
-                    "ribbonLocation"
-                  ],
-                  "category":"app"
-              }
-            },
-            "operator":"NOT_EQUAL",
-            "right":{
-              "type":"JSON_LITERAL",
-              "value":"header"
+      "isHidden" : {
+        "type" : "BINARY",
+        "operation" : {
+          "left" : {
+            "type" : "CONTEXT_BINDING",
+            "binding" : {
+              "address" : [ "ribbonLocation" ],
+              "category" : "app"
             }
-         }
+          },
+          "operator" : "NOT_EQUAL",
+          "right" : {
+            "type" : "JSON_LITERAL",
+            "value" : "header"
+          }
+        }
       },
       "isHero" : false,
       "preset" : {
@@ -3544,7 +3642,7 @@
   "valueType" : null,
   "mandatory" : true,
   "defaultValue" : null,
-  "description" : null,
+  "description" : "",
   "readOnly" : false,
   "selectable" : false,
   "disabled" : false
@@ -3556,7 +3654,7 @@
   "valueType" : null,
   "mandatory" : true,
   "defaultValue" : null,
-  "description" : null,
+  "description" : "",
   "readOnly" : false,
   "selectable" : false,
   "disabled" : false
@@ -3660,14 +3758,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-26 08:28:15</sys_created_on>
         <sys_id>ec737d771b9e6d909e6db992cc4bcb77</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Functional Team Details Record Page</sys_name>
         <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
         <sys_policy/>
         <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
         <sys_update_name>sys_ux_macroponent_ec737d771b9e6d909e6db992cc4bcb77</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-26 08:28:16</sys_updated_on>
+        <sys_updated_on>2023-05-16 13:03:47</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=ec737d771b9e6d909e6db992cc4bcb77"/>
 </record_update>

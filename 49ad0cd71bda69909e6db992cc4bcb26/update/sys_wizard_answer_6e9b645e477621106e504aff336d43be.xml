@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New My Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>My Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">d1998c87243021108c8bc6863d3fade0</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 07:54:52</sys_created_on>
+        <sys_id>6e9b645e477621106e504aff336d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Task</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_wizard_answer_6e9b645e477621106e504aff336d43be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 07:54:52</sys_updated_on>
+        <table/>
+        <target_url>x_1025229_main_c_0_my_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

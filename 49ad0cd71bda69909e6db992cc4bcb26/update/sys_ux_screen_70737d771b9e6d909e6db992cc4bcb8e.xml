@@ -60,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>70737d771b9e6d909e6db992cc4bcb8e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Functional Team Details Record Page</sys_name>
         <sys_overrides/>
         <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
@@ -68,7 +68,7 @@
         <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
         <sys_update_name>sys_ux_screen_70737d771b9e6d909e6db992cc4bcb8e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-26 08:28:16</sys_updated_on>
+        <sys_updated_on>2023-05-16 12:13:37</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=70737d771b9e6d909e6db992cc4bcb8e"/>
 </record_update>

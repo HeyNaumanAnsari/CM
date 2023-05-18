@@ -7,15 +7,15 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>((current.status=='Approved By Reviewer')||(current.status=='Approved by Functional Team') ) &amp;&amp; (gs.hasRole('x_1025229_main_c_0.submitter')) &amp;&amp; (gs.getUserID()==current.request_owner)</condition>
+        <condition>((current.status=='Approved By Reviewer')||(current.status=='Approved by Functional Team') )</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>true</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
-        <form_menu_button_v2>true</form_menu_button_v2>
+        <form_menu_button_v2>false</form_menu_button_v2>
         <form_style>primary</form_style>
-        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
         <hint/>
         <isolate_script>false</isolate_script>
         <list_action>false</list_action>
@@ -42,7 +42,7 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>91c0e1141bb2e9109e6db992cc4bcbc7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Mark Complete</sys_name>
         <sys_overrides/>
         <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
@@ -50,7 +50,7 @@ current.update();]]></script>
         <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
         <sys_update_name>sys_ui_action_91c0e1141bb2e9109e6db992cc4bcbc7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-11 04:26:55</sys_updated_on>
+        <sys_updated_on>2023-05-15 14:31:14</sys_updated_on>
         <table>x_1025229_main_c_0_request_detail</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

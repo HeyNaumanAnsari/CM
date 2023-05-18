@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "table" : "x_1025229_main_c_0_request_detail",
+  "sysId" : "c4491ea0477221106e504aff336d4331"
+}</macroponent_config>
+        <screen display_value="Request Detail Record Page">81737d771b9e6d909e6db992cc4bcbd6</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 11:41:01</sys_created_on>
+        <sys_id>d75f995a47fa21106e504aff336d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_d75f995a47fa21106e504aff336d431e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 11:41:01</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

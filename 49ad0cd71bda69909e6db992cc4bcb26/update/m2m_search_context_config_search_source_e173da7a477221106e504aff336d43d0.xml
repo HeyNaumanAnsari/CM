@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <search_context_config display_value="My Main Case - Workspace Search">14735a7a0d72211026c0dc7aa241ab88</search_context_config>
+        <source display_value="My Main Case - x_1025229_main_c_0_request_detail">e573da7a477221106e504aff336d43cd</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-18 04:45:37</sys_created_on>
+        <sys_id>e173da7a477221106e504aff336d43d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_e173da7a477221106e504aff336d43d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-18 04:45:37</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

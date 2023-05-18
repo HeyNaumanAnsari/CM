@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1025229_main_c_0.Audience for app my-main-case</api_name>
+        <description/>
+        <name>Audience for app my-main-case</name>
+        <roles>61ad0cd71bda69909e6db992cc4bcb76,0f5e5a821beea1109e6db992cc4bcbba,b717ee461beea1109e6db992cc4bcb13,960762421b22e1109e6db992cc4bcbfc,11ad0cd71bda69909e6db992cc4bcb2e,94bc86061b6ea1109e6db992cc4bcbe4,1637a2421b22e1109e6db992cc4bcb1b,49c31ace1b6ea1109e6db992cc4bcbea,d1145a0a1b6ea1109e6db992cc4bcb8d,59ad0cd71bda69909e6db992cc4bcb70,65ad0cd71bda69909e6db992cc4bcb73,84045a021baea1109e6db992cc4bcbb4,5a04da021baea1109e6db992cc4bcb42</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-18 04:45:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd739a7a477221106e504aff336d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app my-main-case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_ux_applicability_cd739a7a477221106e504aff336d43a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-18 04:45:34</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

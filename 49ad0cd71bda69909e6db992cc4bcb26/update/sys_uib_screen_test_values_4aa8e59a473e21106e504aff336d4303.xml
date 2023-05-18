@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "table" : "task",
+  "sysId" : "2ee558c7247421108c8bc6863d3fadc3",
+  "query" : "",
+  "extraParams" : "",
+  "views" : "",
+  "selectedTabIndex" : ""
+}</macroponent_config>
+        <screen display_value="myrecord default">35a8e59a473e21106e504aff336d4300</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 12:21:37</sys_created_on>
+        <sys_id>4aa8e59a473e21106e504aff336d4303</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_4aa8e59a473e21106e504aff336d4303</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 12:21:37</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

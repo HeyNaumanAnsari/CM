@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="ad44d4d31b1e69909e6db992cc4bcb3d" label="Request Detail" max_length="40" name="x_1025229_main_c_0_request_detail" text_index="true" type="collection">
+    <element audit="true" db_object_id="ad44d4d31b1e69909e6db992cc4bcb3d" label="Request Detail" max_length="40" name="x_1025229_main_c_0_request_detail" text_index="true" type="collection">
         <element label="Approval" max_length="40" name="approval" type="string"/>
         <element choice="1" label="Days" max_length="40" name="days" type="choice">
             <choice>
@@ -31,7 +31,7 @@
         </element>
         <element label="Request Owner" max_length="32" name="request_owner" read_only="true" reference="sys_user" type="reference"/>
         <element label="Reviewer" max_length="32" name="reviewer" reference="sys_user" type="reference"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="string">
+        <element choice="1" label="Status" max_length="40" name="status" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Submitted" sequence="0" value="Submitted"/>
                 <element inactive_on_update="false" label="Returned" sequence="1" value="Returned"/>

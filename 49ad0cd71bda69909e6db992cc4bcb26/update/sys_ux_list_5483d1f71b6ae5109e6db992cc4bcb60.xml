@@ -2,9 +2,8 @@
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <category display_value="My Tasks">ef4ccdbb1b2ae5109e6db992cc4bcbef</category>
-        <columns>number,description,due_date,status</columns>
-        <condition table="x_1025229_main_c_0_request_detail">status=Submitted^functional_team_info.functional_group.roles=x_1025229_main_c_0.func-approver^EQ<item display_value="Submitted" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="Submitted"/>
-            <item endquery="false" field="functional_team_info.functional_group.roles" goto="false" newquery="false" operator="=" or="false" value="x_1025229_main_c_0.func-approver"/>
+        <columns>request_id,functional_group,functional_team,due_date</columns>
+        <condition table="x_1025229_main_c_0_functional_team_details">functional_groupDYNAMICd6435e965f510100a9ad2572f2b47744^EQ<item endquery="false" field="functional_group" goto="false" newquery="false" operator="DYNAMIC" or="false" value="d6435e965f510100a9ad2572f2b47744"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <configuration display_value="Main Case Workspace_menu_config">ba63f9771b9e6d909e6db992cc4bcb6e</configuration>
@@ -63,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5483d1f71b6ae5109e6db992cc4bcb60</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>My Functional Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
@@ -71,8 +70,8 @@
         <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
         <sys_update_name>sys_ux_list_5483d1f71b6ae5109e6db992cc4bcb60</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-08 16:26:09</sys_updated_on>
-        <table>x_1025229_main_c_0_request_detail</table>
+        <sys_updated_on>2023-05-15 13:53:57</sys_updated_on>
+        <table>x_1025229_main_c_0_functional_team_details</table>
         <title>My Functional Task</title>
         <view/>
         <word_wrap>false</word_wrap>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>activity.xml</formatter>
+        <name>Activities (Request)</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 14:11:32</sys_created_on>
+        <sys_id>dea14a5e47be21106e504aff336d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Activities (Request)</sys_name>
+        <sys_package display_value="Main Case" source="x_1025229_main_c_0">49ad0cd71bda69909e6db992cc4bcb26</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Main Case">49ad0cd71bda69909e6db992cc4bcb26</sys_scope>
+        <sys_update_name>sys_ui_formatter_dea14a5e47be21106e504aff336d4334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 14:11:32</sys_updated_on>
+        <table>x_1025229_main_c_0_request_detail</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>
